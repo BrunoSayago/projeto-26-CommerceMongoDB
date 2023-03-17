@@ -22,7 +22,9 @@ Neste projeto foram feitas manipulações em um banco de dados MongoDB, que cont
 ## Docker
 Foi utilizado o docker para se conectar ao banco de dados MongoDB. Para isso, após a cópia do diretório para o arquivo local, acessou-se o terminal na pasta raíz do projeto, e criou-se um container do mongo, utilizando o código:
 <br/>
- `docker run -d --name=nomeDoContainer -v "$PWD:/app" -p 27017:27017 mongo:5.0` 
+
+- `docker run -d --name=nomeDoContainer -v "$PWD:/app" -p 27017:27017 mongo:5.0`
+
 <br/>
 Onde "nomeDoContainer" é escolhido pelo usuário. Com o container em execução, foi acessado o terminal do container, com o comando:
 <br/>
